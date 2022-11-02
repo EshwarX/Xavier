@@ -1,0 +1,78 @@
+/*
+  Name: Xavier Huang
+  Date: March 31st, 2022
+  Section: CSE 154 AE
+  This is the styles.css page that is used by all pages in my html pages.
+  It uses a consistent picture as the background and it uses a Google font as well as defining
+  several general fonts. For links it defines them to appear as interactive buttons, when hover
+  over it the button changes color.
+*/
+body {
+  background-image: url("https://images.pexels.com/photos/571169/pexels-photo-571169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: 10% 10%;
+  font-family: "Helvetica", sans-serif;
+}
+
+main {
+  background-color: #f2f3f4;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body, main {
+  width: 80%;
+}
+
+body, section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.links {
+  padding-top: 20px;
+}
+
+a:link, a:visited {
+  background-color: #6699cc;
+  color: rgb(255, 255, 255);
+  padding: 6px 15px;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: #b2beb5;
+}
+
+ul {
+  list-style: square;
+}
+
+.li-inline {
+  display: inline;
+}
+
+aside {
+  font-family: 'Architects Daughter', cursive;
+}
+
+blockquote {
+  font-family: 'Ephesis', cursive;
+  font-size: large;
+  font-weight: bold;
+  text-align: right;
+}
+
+img {
+  width: 520px;
+  height: 300px;
+}
+
+#my-image {
+  width: 690px;
+  height: 450px;
+}
+
+img + p, span {
+  text-decoration: underline;
+  font-size: 10pt;
+}
